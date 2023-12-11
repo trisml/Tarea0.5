@@ -1,0 +1,7 @@
+#navMenu {
+    display: none;
+}
+
+#navMenu.show-menu {
+    display: block;
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'letra';
+    src: url(/assets/OFL.txt);
+}
+
 #navMenu {
     display: none;
 }
@@ -5,3 +10,29 @@
 #navMenu.show-menu {
     display: block;
 }
+
+body{
+       
+}
+
+.logo{
+width: 300px;
+height: 300px;
+
+}
+
+div{
+    background: linear-gradient(white, rgb(30, 165, 202));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'letra';
+}
+
+nav{
+    background: linear-gradient(rgb(30, 165, 202), white);
+}
+
+
+
+

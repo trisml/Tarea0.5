@@ -11,30 +11,30 @@
         <h1>Tienda de Ropa</h1>
         <nav>
             <a href="../index.html">Inicio</a> |
-            <a href="../templates/sobreNosotros.html">Sobre Nosotros</a>
+            <a href="sobreNosotros.html">Sobre Nosotros</a>
         </nav>
     </header>
 
-    <section>
-        <h2>Contacto</h2>
-        <p>¡Estamos encantados de escucharte! Por favor, completa el formulario a continuación para ponerte en contacto con nosotros.</p>
+    <h1>Contacto</h1>
+    <form action="/contacto" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
 
-        <form action="#" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
 
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
+        <label for="email">Dirección de email:</label>
+        <input type="email" id="email" name="email" required>
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
 
-            <label for="problemas">Problemas o Comentarios:</label>
-            <textarea id="problemas" name="problemas" rows="4" required></textarea>
+        <label for="mensaje">Su mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+        <p>Al enviar este formulario, confirmo que he leído y acepto la <a href="privacyTerms.html">Política de Privacidad</a>.</p>
 
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>

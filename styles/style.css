@@ -16,6 +16,9 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -34,6 +37,7 @@ header h1 {
     color: #fff;
     text-decoration: none;
     margin-left: 15px;
+    font-weight: bold;
 }
 
 /* Estilos del contenedor del logo */

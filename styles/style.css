@@ -54,8 +54,36 @@ header h1 {
     margin: 20px auto;
 }
 
+/* Aplicar las animaciones al logo cuando se carga la página */
+.logo-container .logo {
+    animation: destacarLogo 4s infinite, expandirLogo 4s infinite;
+}
+
 /* Estilos del logo dentro del contenedor */
 .logo {
     width: 100%;
     display: block;
+}
+
+/* Agregar animación para hacer que el logo brille */
+@keyframes destacarLogo {
+    0% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.3);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+/* Agregar animación para hacer que el logo se expanda y vuelva a la normalidad */
+@keyframes expandirLogo {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
 }

@@ -1,38 +1,50 @@
-@font-face {
-    font-family: 'letra';
-    src: url(/assets/OFL.txt);
+/* Estilos básicos */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+/* Estilos del header */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+/* Estilos de la barra de navegación */
 #navMenu {
-    display: none;
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
 }
 
-#navMenu.show-menu {
+#navMenu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Estilos del contenedor del logo */
+.logo-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Estilos del logo dentro del contenedor */
+.logo {
+    width: 100%;
     display: block;
 }
-
-body{
-       
-}
-
-.logo{
-width: 300px;
-height: 300px;
-
-}
-
-div{
-    background: linear-gradient(white, rgb(30, 165, 202));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'letra';
-}
-
-nav{
-    background: linear-gradient(rgb(30, 165, 202), white);
-}
-
-
-
-

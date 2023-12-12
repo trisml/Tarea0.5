@@ -26,11 +26,11 @@
 
 Nuestro equipo esta formado por los siguientes integrantes:
 
-1. [@jaimecamocha]https://github.com/jaimecamocha [Jaime]
-2. [@javigarciagr7]https://github.com/Javigarciagr7 [Javier]
-3. [@trisml]https://github.com/trisml [Tristan]
-4. [@Joasan11]https://github.com/Joasan11 [Joaquín]
-5. [@AlvaroDromant]https://github.com/AlvaroDromant [Alvaro]
+1. [@jaimecamocha](https://github.com/jaimecamocha) [Jaime]
+2. [@javigarciagr7](https://github.com/Javigarciagr7) [Javier]
+3. [@trisml](https://github.com/trisml) [Tristan]
+4. [@Joasan11](https://github.com/Joasan11) [Joaquín]
+5. [@AlvaroDromant](https://github.com/AlvaroDromant) [Alvaro]
 
 ## Problemas y Sugerencias
 
